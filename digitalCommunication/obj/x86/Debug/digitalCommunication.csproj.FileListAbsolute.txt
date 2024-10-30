@@ -1,0 +1,14 @@
+D:\E Drive\digitalCommunication\digitalCommunication\bin\Debug\digitalCommunication.exe
+D:\E Drive\digitalCommunication\digitalCommunication\bin\Debug\digitalCommunication.pdb
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.Properties.Resources.resources
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.csproj.GenerateResource.Cache
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.exe
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.pdb
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.csprojResolveAssemblyReference.cache
+D:\E Drive\digitalCommunication\digitalCommunication\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.FrmInputTransfer.resources
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.MARKER__RATIO.resources
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.FRE_POP_UP.resources
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.FabricRetun.resources
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.diaUnitBPO.resources
+D:\E Drive\digitalCommunication\digitalCommunication\obj\x86\Debug\digitalCommunication.PopulateFabric.resources

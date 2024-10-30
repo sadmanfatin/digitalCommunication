@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F95938C7-EA17-4924-9051-2421075E0096}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>digitalCommunication</RootNamespace>
+    <AssemblyName>digitalCommunication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\..\ALL service\Check Service Query\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="csDataProcess.cs" />
+    <Compile Include="diaUnitBPO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="diaUnitBPO.Designer.cs">
+      <DependentUpon>diaUnitBPO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FabricRetun.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FabricRetun.Designer.cs">
+      <DependentUpon>FabricRetun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRE_POP_UP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRE_POP_UP.Designer.cs">
+      <DependentUpon>FRE_POP_UP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInputTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInputTransfer.designer.cs">
+      <DependentUpon>FrmInputTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MARKER _RATIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MARKER _RATIO.Designer.cs">
+      <DependentUpon>MARKER _RATIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OracleConnection.cs" />
+    <Compile Include="PopulateFabric.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PopulateFabric.Designer.cs">
+      <DependentUpon>PopulateFabric.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="diaUnitBPO.resx">
+      <DependentUpon>diaUnitBPO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FabricRetun.resx">
+      <DependentUpon>FabricRetun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRE_POP_UP.resx">
+      <DependentUpon>FRE_POP_UP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInputTransfer.resx">
+      <DependentUpon>FrmInputTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MARKER _RATIO.resx">
+      <DependentUpon>MARKER _RATIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PopulateFabric.resx">
+      <DependentUpon>PopulateFabric.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Picture\FabricPopup.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
